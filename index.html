@@ -172,11 +172,10 @@
   	grid.set(FRUIT, randpos.x, randpos.y);
   }
 
-  var aani = new Audio("song.mp3");
-  var aanig = new Audio("gulp.mp3");
-  var aanid = new Audio("die.mp3");
-  var aanip = new Audio("piste.mp3")
-
+  var aani = new Audio("bs/sound/song.mp3");
+  var aanig = new Audio("bs/sound/gulp.mp3");
+  var aanid = new Audio("bs/sound/die.mp3");
+  
   function main() {
 
     aani.play();
@@ -272,7 +271,7 @@
       if (0 > nx || nx > grid.width-1  ||
   			0 > ny || ny > grid.height-1
       ) {
-        
+
         active = !active;
         canvas.style.display = "none";
         aanid.play();
