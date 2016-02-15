@@ -55,7 +55,7 @@
 
 </table>
 
-<button onclick="location.href='snake.html'">Pelaa uudelleen</button>
+<button onclick="location.href='index.html'">Pelaa uudelleen</button>
 
 </body>
 
